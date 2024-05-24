@@ -50,6 +50,8 @@ body{
     .Nav-bar{
         opacity: 0;
     }
+    .Nav-bar-r{
+display: none;}
     .Nav-bar-icon:active ~ .Nav-bar-r{
         opacity: 100%;
         width: auto;
