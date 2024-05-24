@@ -3,9 +3,9 @@
   
 
     navBarIcon.onclick = function() {
-        if (navBar.style.display === 'block') {
-            navBar.style.display = 'none';
+        if (Nav-bar-r.style.display === 'block') {
+            Nav-bar-r.style.display = 'none';
         } else {
-            navBar.style.display = 'block';
+            Nav-bar-r.style.display = 'block';
         }
     };
