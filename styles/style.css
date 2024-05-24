@@ -28,36 +28,29 @@ body{
 }
 @media only screen and (max-width: 600px) {
     .Nav-bar-icon{
-        opacity: 100%;
+        opacity: 100;
         color: #e6f3ff;
-        position: inherit;
+        float: right;
+        width: 20%;
+        background: none;
     }
     .Name{
         width: auto;
     }
     .Nav-bar-icon-image{
-        opacity: 100%;
+        display: block;
         position: relative;
-        float: right;
-        width: 20%;
     }    
     .Nav-bar-r{
-        width: 0;
+        display:none;
     }
     .Nav-bar-icon:hover{
         color: #e6f3ff;
     }
     .Nav-bar{
-        opacity: 0;
+        display:none;
     }
     .Nav-bar-r{
-display: none;}
-    .Nav-bar-icon:active ~ .Nav-bar-r{
-        opacity: 100%;
-        width: auto;
-        margin-top: 50%;
-        padding: 2rem 2rem 2rem 4rem;
-        color: #e6f3ff;
-        box-shadow: 0 2px 4px rgba(194, 183, 183, 0.808);
+        display: none;
     }
   }
