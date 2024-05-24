@@ -1,11 +1,12 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const navBarIcon = document.querySelector(".Nav-bar-icon");
+    const navBarR = document.querySelector(".Nav-bar-r");
 
-    const navBarIcon = document.querySelector('.Nav-bar-icon');
-  
-
-    navBarIcon.onclick = function() {
-        if (Nav-bar-r.style.display === 'block') {
-            Nav-bar-r.style.display = 'none';
+    navBarIcon.addEventListener("click", function() {
+        if (navBarR.style.display === "block") {
+            navBarR.style.display = "none";
         } else {
-            Nav-bar-r.style.display = 'block';
+            navBarR.style.display = "block";
         }
-    };
+    });
+});
