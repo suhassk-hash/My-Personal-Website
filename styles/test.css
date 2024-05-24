@@ -5,7 +5,7 @@ body{
     font-family:  'Helvetica Neue', sans-serif;
 }
 .Nav-bar-icon{
-    opacity: 0;
+    display: none;
 }
 .Name{
     position: absolute;
@@ -14,26 +14,28 @@ body{
 .Nav-bar{
    position: absolute;   
     right: 0;
-    top: 5%;
     font-size: larger;
     font-family:  'Helvetica Neue', sans-serif;
 }
 .Nav-bar-r{
-    opacity: 0;
+    display: none;
 }
 .Nav-bar-content{
-    color: #e6f3ff;
-    text-decoration: none;
     padding: 1rem 2rem;
     background-color: #313c46;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+}
+.Nav-bar-content-r{
+    display: none;
+}
+.Nav-bar-holder-r{
+    display: none;
 }
 @media only screen and (max-width: 600px) {
     .Nav-bar-icon{
-        opacity: 100;
+        display: block;
         color: #e6f3ff;
-        position: relative;
+        position: absolute;
         float: right;
         width:20%;
         height: auto;
@@ -41,7 +43,6 @@ body{
     }
     .Name{
         width: auto;
-        position: absolute;
     }
     .Nav-bar-icon-image{
         display: block;
