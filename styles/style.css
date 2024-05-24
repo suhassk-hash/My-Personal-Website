@@ -30,6 +30,7 @@ body{
     .Nav-bar-icon{
         opacity: 100;
         color: #e6f3ff;
+        position: absolute;
         float: right;
         width: 20%;
         background: none;
