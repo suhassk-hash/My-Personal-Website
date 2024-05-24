@@ -2,14 +2,14 @@
 /*#01204E*/
 /*#008abf*/
 @font-face {
-    font-family: "Lora"; /*a name to be used later*/
+    font-family: 'Lora'; /*a name to be used later*/
     src: url('../fonts/Lora-VariableFont_wght.ttf'); /*URL to font*/
 }
 body{
     color: 	#062430;
     background-color:#f4adb4;
     font-size: large;
-    font-family:  "Lora", sans-serif;
+    font-family:  'Lora', sans-serif;
 }
 .Nav-bar-icon{
     opacity: 0;
@@ -27,7 +27,7 @@ body{
 }
 .About-text{
     font-size: x-large;
-    font-family:  "Lora", sans-serif;
+    font-family:  'Lora', sans-serif;
     font-weight: 600;
     width: 60%;
     float: right;
@@ -113,7 +113,7 @@ body{
     .Nav-bar-content-r{
     color: #01204E;
     font-size:xx-large;
-    font-family:  "Lora", sans-serif;
+    font-family:  'Lora', sans-serif;
     text-decoration: none;
     display: block;
     }
@@ -139,6 +139,6 @@ body{
     .About-text{
         width: 100%;
         font-size: x-large;
-        font-family:  "Lora", sans-serif;
+        font-family:  'Lora', sans-serif;
     }
   }
