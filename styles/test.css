@@ -1,41 +1,56 @@
+/*#fadadd */
+/*#01204E*/
 body{
-    background-color: #16161d;
-    color: #e6f3ff;
+    color: #01204E;
+    background-color:#fadadd ;
     font-size: large;
-    font-family:  'Helvetica Neue', sans-serif;
+    font-family:  "NTR", sans-serif;
 }
 .Nav-bar-icon{
-    display: none;
+    opacity: 0;
+}
+.Header{
+    border-bottom: 2px solid #01204E;
 }
 .Name{
-    position: absolute;
-    top:0;
+    display: inline;
+    position:relative;
+    width: 100%;
+    padding-top: 1%;   
 }
 .Nav-bar{
-   position: absolute;   
-    right: 0;
-    font-size: larger;
-    font-family:  'Helvetica Neue', sans-serif;
+    position: relative;
+    padding-top: 0%;   
+    width: auto;
+    font-size: xx-large;
 }
 .Nav-bar-r{
-    display: none;
+    opacity: 0;
 }
 .Nav-bar-content{
-    padding: 1rem 2rem;
-    background-color: #313c46;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #01204E;
+    width: auto;
+    float: right;
+    overflow: hidden;
+    text-decoration: none;
 }
-.Nav-bar-content-r{
-    display: none;
+.Nav-bar-content-holder{
+    color: #e6f3ff;
+    width: auto;
+    margin-top: -5%;
+    float: right;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 1rem 2rem;
 }
 .Nav-bar-holder-r{
     display: none;
 }
 @media only screen and (max-width: 600px) {
     .Nav-bar-icon{
-        display: block;
+        opacity: 100;
         color: #e6f3ff;
-        position: absolute;
+        position: relative;
         float: right;
         width:20%;
         height: auto;
@@ -59,14 +74,15 @@ body{
         display: none;
     }
     .Nav-bar-content-r{
-    background-color: #16161d;
-    color: #e6f3ff;
+    color: #01204E;
     font-size:xx-large;
     font-family:  "NTR", sans-serif;
     text-decoration: none;
+    display: block;
     }
     .Nav-bar-holder-r{
-        padding: 10%;
+        display: block;
+        padding: 7%;
         text-align: center;
     }
   }

@@ -12,7 +12,7 @@ function responsive() {
         navBarR.style.display = "block";
         navBarR.style.opacity = "1";
         navBarR.style.width = "90%";
-        navBarR.style.marginTop = "40%";
+        navBarR.style.marginTop = "10%";
         navBarR.style.color = "#e6f3ff";
     }
 };
