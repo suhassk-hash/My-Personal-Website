@@ -12,7 +12,7 @@ function responsive() {
         navBarR.style.display = "block";
         navBarR.style.opacity = "100%";
         navBarR.style.width = "90%";
-        navBarR.style.marginTop = "30%";
+        navBarR.style.marginTop = "40%";
         navBarR.style.padding = "2% 2% 2% 4%";
         navBarR.style.color = "#e6f3ff";
     }
