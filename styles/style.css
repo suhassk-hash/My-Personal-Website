@@ -48,13 +48,11 @@ body{
     display: inline;
     position:relative;
     width: 100%;
-    padding-top: 1%;
 }
 .Nav-bar{
     position: relative;
-    padding-top: 0%;   
     width: auto;
-    font-size: xx-large;
+    font-size: xlarge;
 }
 .Nav-bar-r{
     opacity: 0;
@@ -73,7 +71,7 @@ body{
     text-decoration: none;
     padding: 1rem 2rem;
     display: block;
-    margin-top: -3.5%;
+    margin-top: -4.5%;
 }
 .Nav-bar-holder-r{
     display: none;
