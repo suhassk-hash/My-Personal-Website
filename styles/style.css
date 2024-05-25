@@ -52,7 +52,7 @@ body{
 .Nav-bar{
     position: relative;
     width: auto;
-    font-size: xlarge;
+    font-size: x-large;
 }
 .Nav-bar-r{
     opacity: 0;
