@@ -1,13 +1,32 @@
 /*#fadadd */
 /*#01204E*/
 /*#008abf*/
+:root {
+    --bg-color: #FFF5EE;
+    --text-color: #000000 ;
+    --sec-clr:  #F5F5F5;
+    --accent-clr:#FF5722 ;
+}
 @font-face {
     font-family: 'Lora'; /*a name to be used later*/
     src: url('../fonts/Lora-VariableFont_wght.ttf'); /*URL to font*/
 }
+.name{
+    height: 100vh;
+    background-color: var(--sec-clr);
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+.name-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
 body{
-    color: 	#062430;
-    background-color:#FFB6C1;
+    color: 	var(--text-color);
+    background-color: var(--bg-color);
     font-size: large;
     font-family:  'Lora', sans-serif;
 }
@@ -43,22 +62,24 @@ body{
 }
 .Header{
     border-bottom: 2px solid #01204E;
+    background-color: var(--sec-clr);
 }
 .Name{
     display: inline;
     position:relative;
-    width: 100%;
+    width: 100%;    
+    color: var(--accent-clr);
 }
 .Nav-bar{
     position: relative;
     width: auto;
     font-size: large;
-}
-.Nav-bar-r{
-    opacity: 0;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
 }
 .Nav-bar-content{
-    color: #062430 ;
+    color: var(--text-color);
     width: auto;
     overflow: hidden;
     text-decoration: none;
@@ -67,21 +88,30 @@ body{
 }
 .Nav-bar-content-holder{
     margin-top: 0%;
-    float: right;
     text-decoration: none;
-    padding: 1rem 2rem;
     display: block;
-    margin-top: -3.5%;
 }
 .Nav-bar-holder-r{
     display: none;
 }
 @media only screen and (max-width: 600px) {
-    body{
-        background-color: #FFB6C1;
+    .Nav-bar{
+        display:none;
+        flex-direction: column;
+        justify-content:space-around;
     }
-    .Name{
-        font-size: 7.5vw;
+    .Nav-bar-content-holder{
+        display: flex;
+        justify-content: center;
+        color: #01204E;
+        font-size:10vm;
+        font-family:  'Lora', sans-serif;
+        text-decoration: none;
+        padding: 7%;
+        margin-top: 10vh;
+    }
+    body{
+        background-color: var(--bg-color);
     }
     .Nav-bar-icon{
         opacity: 100;
@@ -92,6 +122,7 @@ body{
         height: auto;
         background: none;
         border: none;
+        z-index: 1;
     }
     .Nav-bar-icon-image{
         display: block;
@@ -99,24 +130,6 @@ body{
         height: 10vw;
         margin-top: 6%;
     }    
-    .Nav-bar{
-        display:none;
-    }
-    .Nav-bar-r{
-        display: none;
-    }
-    .Nav-bar-content-r{
-    color: #01204E;
-    font-size:x-large;
-    font-family:  'Lora', sans-serif;
-    text-decoration: none;
-    display: block;
-    }
-    .Nav-bar-holder-r{
-        display: block;
-        padding: 7%;
-        text-align: center;
-    }
     .About-me{
         width: auto;
         padding-left: 3%;
