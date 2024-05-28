@@ -110,6 +110,9 @@ body{
         padding: 7%;
         margin-top: 10vh;
     }
+    .name{
+        font-size: 3vw;
+    }
     body{
         background-color: var(--bg-color);
     }
