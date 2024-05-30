@@ -8,6 +8,16 @@
     --sec-clr:  #F5F5F5;
     --accent-clr:#FF5722 ;
 }*/
+@font-face {
+    font-family: 'Lora'; /*a name to be used later*/
+    src: url('../fonts/Lora-VariableFont_wght.ttf'); /*URL to font*/
+}
+@keyframes Namechanger {
+    0%{content:'Java Enthusiast';}
+    33%{content:'Full Stack Web Developer';}
+    66%{content:'Machine Learning Enthusiast';}
+    100%{content:'Java Enthusiast';}
+}
 :root {
     --bg-color: #FFF5EE;
     --text-color: #000000 ;
@@ -19,10 +29,6 @@
     font-weight: bolder;
     margin-top: -2%;
     color: black;
-}
-@font-face {
-    font-family: 'Lora'; /*a name to be used later*/
-    src: url('../fonts/Lora-VariableFont_wght.ttf'); /*URL to font*/
 }
 .name{
     height: 100vh;
@@ -47,6 +53,7 @@ body{
     opacity: 0;
 }
 .About-me{
+    font-size: large;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -56,7 +63,7 @@ body{
     width: 100%;
 }
 .About-text{
-    font-size: x-large;
+    font-size: large;
     font-family:  'Lora', sans-serif;
     font-weight: 600;
     width: 60%;
@@ -81,6 +88,14 @@ justify-content: center;
     position:relative;
     width: 100%;    
     color: var(--accent-clr);
+}
+.Animation:after{
+    display: inline;
+    position:relative;
+    width: 100%;    
+    color: var(--accent-clr);
+    content: 'Suhas Koheda';
+    animation: Namechanger 5s infinite;
 }
 .Nav-bar{
     width: auto;
@@ -117,6 +132,7 @@ justify-content: center;
         height: 100vh;
         flex-direction: column;
         justify-content:space-around;
+        position: sticky;
     }
     .Nav-bar-content-holder{
         display: flex;
@@ -125,7 +141,7 @@ justify-content: center;
         font-family:  'Lora', sans-serif;
         text-decoration: none;
         padding: 4%;
-        margin-top: 10vh;
+        margin-top: 0vh;
     }
     body{
         background-color: var(--bg-color);
