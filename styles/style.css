@@ -97,6 +97,11 @@ justify-content: center;
     content: 'Suhas Koheda';
     animation: Namechanger 5s infinite;
 }
+.Headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
 .Nav-bar{
     width: auto;
     font-size: large;
