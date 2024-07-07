@@ -18,6 +18,7 @@
     66%{content:'Machine Learning Enthusiast';}
     100%{content:'Java Enthusiast';}
 }
+/*  */
 :root {
     --bg-color: #FFF5EE;
     --text-color: #000000 ;
@@ -68,16 +69,17 @@ body{
     font-weight: 600;
     width: 60%;
 }
-.Home-image-holder{
-display: flex;
-flex-direction: row;
-justify-content: center;
+.Home-image-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 50%;
 }
-.Home-image{
+
+.Home-image {
     width: 60%;
-    border-radius:10%;
     padding: 4%;
+    border-radius: 50%; /* This makes the image circular */
 }
 .Header{
     border-bottom: 2px solid var(--accent-clr);
@@ -179,18 +181,20 @@ justify-content: center;
         height: auto;
         padding-top:2%;
     }
-    .Home-image-holder{
+    .Home-image-holder {
         display: flex;
         flex-direction: row;
         justify-content: center;
         height: 45vh;
         width: auto;
-        }
-        .Home-image{
-            width: 60%;
-            border-radius:10%;
-            padding: 4%;
-        }
+    }
+    
+    .Home-image {
+        width:auto;
+        height: 100%;
+        border-radius: 50%; /* This makes the image circular */
+        padding: 4%;
+    }
     .About-text{
         width: 100%;
         font-family:  'Lora', sans-serif;
